@@ -20,7 +20,6 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="High Resolution Polling Wait.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Polling Wait.vi"/>
-				<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
@@ -8473,6 +8472,7 @@ LED1_enableArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutpu
 			</Item>
 		</Item>
 		<Item Name="Extract command and data from spreadsheet.vi" Type="VI" URL="../SubVIs/Extract command and data from spreadsheet.vi"/>
+		<Item Name="FPGA Reference.ctl" Type="VI" URL="../TypeDefs/FPGA Reference.ctl"/>
 		<Item Name="Host Main.vi" Type="VI" URL="../Host Main.vi"/>
 		<Item Name="Parse string to hex number.vi" Type="VI" URL="../SubVIs/Parse string to hex number.vi"/>
 		<Item Name="SendBulkMsg.vi" Type="VI" URL="../SubVIs/SendBulkMsg.vi"/>
