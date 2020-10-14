@@ -20,6 +20,7 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="High Resolution Polling Wait.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Polling Wait.vi"/>
+				<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
@@ -112,6 +113,7 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
+		<Item Name="Calculate error and Y0.vi" Type="VI" URL="../Graphics/Calculate error and Y0.vi"/>
 		<Item Name="Chassis" Type="sbRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
@@ -8765,7 +8767,6 @@ LED1_enableArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutpu
 					<Item Name="vi.lib" Type="Folder">
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 					</Item>
-					<Item Name="R Series - SPI Master Control Signals.ctl" Type="VI" URL="../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/examples/NI SPI IP/R Series/FPGA/Controls/R Series - SPI Master Control Signals.ctl"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="FPGA Main" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -8809,6 +8810,7 @@ LED1_enableArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutpu
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="DrawLine send pixel to fpga.vi" Type="VI" URL="../Graphics/DrawLine send pixel to fpga.vi"/>
 		<Item Name="DrawLine.vi" Type="VI" URL="../Graphics/DrawLine.vi"/>
 		<Item Name="Extract command and data from spreadsheet.vi" Type="VI" URL="../SubVIs/Extract command and data from spreadsheet.vi"/>
 		<Item Name="Find steep and swap.vi" Type="VI" URL="../Graphics/Find steep and swap.vi"/>
